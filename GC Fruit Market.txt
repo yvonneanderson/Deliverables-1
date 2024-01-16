@@ -1,0 +1,45 @@
+import math
+
+customer_name = "Grant Chirpus"
+
+print("Welcome to GC Fruit Market! ")
+print("What is your name?")
+print(customer_name)
+print("Welcome " +customer_name + ". Which Fruit would you like to buy?")
+fruit_options = ["Apples $2", "Grape $1", "Orange $3"]
+print(" The Fruit Options are: ")
+print(f"1) {fruit_options[0]}")
+print(f"2) {fruit_options[1]}")
+print(f"3) {fruit_options[2]}")
+
+fruit_price_options = ["$2", "$1", "$3"]
+print(" The Fruit Price are: ")
+print(f"1) {fruit_price_options[0]}")
+print(f"2) {fruit_price_options[1]}")
+print(f"3) {fruit_price_options[2]}")
+
+if fruit_options == "Apples":
+	print(f"1")
+	print("You bought 1 apple at $2")
+	print("Would you like to buy another piece of fruit? y/n")
+	print("y")
+elif fruit_options == "Grapes":
+	print(f"2")
+elif fruit_options == "Orange":
+	print(f"3")
+	print("Welcome " +customer_name + "."  "Which Fruit would you like to buy?")
+	print("You bought 1 orange at $3")
+else: 
+	print("Would you like to buy another piece of fruit? y/n")
+	print("n")
+
+print("Order for " +customer_name)
+print("1 apple(s) at $2 apiece")
+print("0 grape(s) at $1 apiece")
+print("1 orange(s) at $3 apiece")
+SubTotal = 5
+print("SubTotal: $" +SubTotal)
+Tax_rate = .05
+"5% Tax" == SubTotal * Tax_rate
+Total = SubTotal + str("5% Tax")
+print("Total: " +Total)

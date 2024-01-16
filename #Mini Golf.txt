@@ -1,0 +1,15 @@
+#Mini Golf
+
+import math
+
+customer_name = "Christa"
+total_score = "Zero"
+print("Welcome to GC Mini Golf! What is your name?  " +customer_name)
+print("Hi " +customer_name + "!")
+print("Would you like to play how many holes today? 3")
+print("How many putts for hole 1? (par is 3) 4")
+print("How many putts for hole 2? (par is 3) 2")
+print("How many putts for hole 3? (par is 3) 3")
+print("Good game " +customer_name + "!")
+print(" Your total score was:  " +total_score)
+
